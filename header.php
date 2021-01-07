@@ -88,7 +88,7 @@ include('constant.inc.php');
                             <li class="welcomeuser"><a href="#"><?php echo "Welcome " . $_SESSION['FOOD_USER_NAME'] . "!"; ?></a>
 
                             <li><i class="fa fa-user" aria-hidden="true"></i> <a href="<">Profile </a></li>
-                            <li><a href="">Order History</a></li>
+                            <li><a href="order_history.php">Order History</a></li>
                             <li><a href="logout.php">Logout</a></li>
 
                             </li>
