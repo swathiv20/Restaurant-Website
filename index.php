@@ -20,8 +20,8 @@ include('header.php');
                     </div>
                 </div>
                 <!-- end of title -->
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iusto aut molestias excepturi, nam est optio id rerum aliquam, deserunt cum incidunt eum quos corporis error magni et necessitatibus enim?</p>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, consectetur dolore minus cupiditate quibusdam cumque libero iusto dolorum, facere, nostrum provident repellendus quos? Nisi, veniam rem molestias maiores saepe unde, error dignissimos ipsam laboriosam cupiditate fugit recusandae? Delectus veniam ducimus assumenda consequatur? Nostrum numquam error architecto esse quos assumenda asperiores.</p>
+                <p class="text"> We beleive the best moments in life happens face to face. So we created 'Cafe Eternity'. We curate experiences to creste meaningful connections</p>
+                <p class="text"> Cafe Eternity is the ultimate host for you to connect over a memorable, shared experience. We do this by providing unique entertainment in sophisticated, comfortable places to gather all served by our scratch kitchen. Our venue hosts a number of events such as weddings, corporate events as well as other social gatherings. We then host tailored combinations of dining, bocce and events. All with amazing food and gracious service, so you can enjoy a genuine moment connecting with someone you care about.</p>
             </div>
             <div class="about-col-3">
                 <img src="assets/images/about-img-2.jpg" alt="">
@@ -50,7 +50,7 @@ include('header.php');
                     <i class="fas fa-birthday-cake"></i>
                 </span>
                 <h3>Birthday Party</h3>
-                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, at? Aspernatur aliquam deserunt eum odio veniam. Ipsa quo, quisquam cupiditate dolores ab doloremque expedita dolore obcaecati incidunt. Voluptas, inventore dolorum.</p>
+                <p class="text">Just because your loved ones' big day is here doesn't mean you neeed to shell out the big bucks. Check out our budget-friendly birthday party ideas that are meant to make your bash a memorable one</p>
             </div>
 
             <div class="service-item">
@@ -58,7 +58,7 @@ include('header.php');
                     <i class="fas fa-glass-cheers"></i>
                 </span>
                 <h3>Wedding Party</h3>
-                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, at? Aspernatur aliquam deserunt eum odio veniam. Ipsa quo, quisquam cupiditate dolores ab doloremque expedita dolore obcaecati incidunt. Voluptas, inventore dolorum.</p>
+                <p class="text"> From our restaurent in Cochi, we can deliver tents, portable restrooms, climate control systems, generator, lighting, furniture and decor either in our ground or in any area of your choice in lightening speed. And all with just one phonecall.</p>
             </div>
 
             <div class="service-item">
@@ -66,7 +66,7 @@ include('header.php');
                     <i class="fas fa-pizza-slice"></i>
                 </span>
                 <h3>Business Meetings</h3>
-                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, at? Aspernatur aliquam deserunt eum odio veniam. Ipsa quo, quisquam cupiditate dolores ab doloremque expedita dolore obcaecati incidunt. Voluptas, inventore dolorum.</p>
+                <p class="text">Cafe Eternity is a recently established event venue in Cochi and is, in its own words, “tailored for tech”. Featuring a co-working space, a demo zone for pop-ups and ups and an event venue. The space is seamless, and options and services are clearly labelled and priced. No bad surprises here!</p>
             </div>
         </div>
     </div>
@@ -88,11 +88,11 @@ include('header.php');
         <!-- end of title -->
         <div class="openings-row">
             <p class="text">we are open for 7 days a week</p>
-            <h3>San Francisco Office</h3>
+            <h3>Cochi office</h3>
             <ul>
-                <li>8488 Street, Lake 383 San Francisco</li>
-                <li>Phone: 0090 3838 7686</li>
-                <li>Email: foody@gmail.com</li>
+                <li>Near metro station Edappally, Cochi </li>
+                <li>Phone: 7025877402</li>
+                <li>Email: eternitycafe0909@gmail.com</li>
                 <li>7:00 AM to 12:00 AM</li>
             </ul>
         </div>
@@ -133,15 +133,15 @@ include('header.php');
                 <div class="contact-col-1">
                     <h2>Contact Detail</h2>
                     <ul>
-                        <li>8488 Street, Lake 383 San Francisco</li>
-                        <li>Phone: 0090 3838 7686</li>
-                        <li>Email: foody@gmail.com</li>
-                        <li>Website: www.foody.com</li>
+                        <li>Cafe Eternity, Near Metro station Edappally, Cochi</li>
+                        <li>Phone:702587742 </li>
+                        <li>Email: eternitycafe0909@gmail.com</li>
+                        <li>Website: www..com</li>
                     </ul>
                 </div>
                 <div class="contact-col-2">
                     <h2>Follow Us</h2>
-                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit recusandae deserunt officiis provident molestias, quo, temporibus adipisci eum facere amet repellat ullam corporis ut vel.</p>
+                    <p class="text"> facebook. twitter. instagram. pinterest.  </p>
                     <ul class="center">
                         <li class="center">
                             <a href="#">
