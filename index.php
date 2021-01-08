@@ -1,7 +1,19 @@
 <?php
 include('header.php');
 ?>
-
+  <!-- banner section -->
+      <section class = "banner">
+        <ul class = "banner-slider">
+          <li class = "banner-item active-banner">
+            <div class = "container">
+              <h1>Chase The Flavors</h1>
+              <p class = "text">food is the ingredient that binds us together.</p>
+              <button type = "button">taste now</button>
+            </div>
+         
+        </ul>
+      </section>
+      <!-- end of banner section -->
 <!-- about section -->
 <section class="padding-y about" id="about">
     <div class="container">
