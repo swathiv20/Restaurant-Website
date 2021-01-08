@@ -45,6 +45,7 @@ button {
   margin: 0 auto;
 }
 
+
 h1,
 h2,
 h3,
@@ -441,6 +442,7 @@ fa-times {
 .tablediv {
   display: table;
   width: 94%;
+ 
 }
 .cart-table {
   width: 70%;
@@ -449,13 +451,19 @@ fa-times {
   font-weight: 500;
   margin-left: 15%;
   margin-right: 15%;
+  
 }
+.cart-table th
+{
+  background-color: #0a0944; 
+}
+
 .cart-table thead tr th,
 .cart-table tbody tr td {
   vertical-align: middle;
   text-align: center;
 }
-.cart-table tbody tr td img {
+.cart-table tbody tr td {
   width: 170px;
   margin: 0 auto;
 }
@@ -485,19 +493,7 @@ label {
   background-color: #f3f1ed;
   padding: 10px 15px;
 }
-.coupon button {
-  color: #fff;
-  text-transform: uppercase;
-  background: #848484;
-  height: 34px;
-  padding: 0 15px;
-  border: none;
-  line-height: 34px;
-  width: 30%;
-  font-size: 12px;
-  transition: 0.4s;
-  font-weight: 700;
-}
+
 .cart-btn {
   float: right;
   margin-top: 17px;
@@ -505,6 +501,7 @@ label {
 .cart-btn button {
   float: left;
   margin-left: 5px;
+  background-color: #0a0944;
 }
 .btn-default,
 .btn-success {
@@ -522,7 +519,8 @@ label {
 }
 .cart_totals {
   font-size: 16px;
-  padding-top: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 430px;
 }
 .cart_totals h4 {
   text-transform: uppercase;
