@@ -21,21 +21,20 @@ $res = mysqli_query($con, $sql);
 		</div>
 		<div class="contact-row">
 			<div>
-				<form class="contact-form" method="post">
-					<div class="table-content table-responsive">
-
-						<table>
-							<thead>
-								<tr>
-									<th class="form-submit-btn">Order No</th>
-									<th class="form-submit-btn">Price</th>
-									<th class="form-submit-btn">Address</th>
-									<th class="form-submit-btn">Dish Details</th>
-									<th class="form-submit-btn">Order Status</th>
-									<th class="form-submit-btn">Payment Status</th>
-								</tr>
-							</thead>
-							<tbody>
+				<form class="" method="post">
+				<table class="cart-table table table-bordered" >
+                                 <thead>
+                                        <tr>
+					   <th >Order No</th>
+				           <th>Price</th>
+					   <th>Address</th>
+					   <th>Dish Details</th>
+					   <th>Order Status</th>
+					   <th>Payment Status</th>
+                        
+                                        </tr>
+                                </thead>
+				     	<tbody>
 								<?php if (mysqli_num_rows($res) > 0) {
 									$i = 1;
 									while ($row = mysqli_fetch_assoc($res)) {
@@ -79,10 +78,7 @@ $res = mysqli_query($con, $sql);
 								} ?>
 							</tbody>
 						</table>
-
-					</div>
-
-				</form>
+					</form>
 			</div>
 		</div>
 	</div>
