@@ -45,8 +45,8 @@ foreach ($cartArr as $list) {
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
-                <div class="navbar-expand">
-                    <ul class="navbar-nav">
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav1">
                         <li>
                             <a href="index.php">home</a>
                         </li>
