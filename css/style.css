@@ -198,6 +198,10 @@ h6 {
   background-color: var(--max-red);
   color: snow;
 }
+.price-display {
+  color: #d43031;
+  font-weight: 400;
+}
 .brand-and-toggler {
   font-size: 1.4rem;
   display: flex;
@@ -233,9 +237,9 @@ h6 {
   padding: 0.5rem 0;
 }
 .navbar-nav li a {
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--dimGray);
 }
 .navbar-nav li a:hover {
