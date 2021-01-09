@@ -45,7 +45,7 @@ foreach ($cartArr as $list) {
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
-                <div class="navbar-collapse">
+                <div class="navbar-expand">
                     <ul class="navbar-nav">
                         <li>
                             <a href="index.php">home</a>
@@ -54,9 +54,6 @@ foreach ($cartArr as $list) {
                         <li>
                             <a href="index.php#contact">Contact Us</a>
                         </li>
-
-
-
                         <li>
                             <a href="menu.php">menu</a>
                         </li>
@@ -91,23 +88,19 @@ foreach ($cartArr as $list) {
             <nav class="navbar navbar-user">
                 <div class="container">
 
-                    <div class="navbar-collapse">
+                    <div class="navbar-expanded">
                         <ul class="navbar-nav usernav">
-
-                            <li class="welcomeuser"><a href="#"><?php echo "Welcome " . $_SESSION['FOOD_USER_NAME'] . "!"; ?></a>
-
+                            <div class="welcomeuser" >
+                            <li class="welcomeuser"><?php echo "Welcome " . $_SESSION['FOOD_USER_NAME'] . "!"; ?>
+                            </div>
                             <li><i class="fa fa-user" aria-hidden="true"></i> <a href="<">Profile </a></li>
                             <li><a href="order_history.php">Order History</a></li>
                             <li>
                                 <a href="cart.php">My cart (<span id="mycart"><?php echo $totalCartDish ?></span>)</a> <br>
 
                                 <div class="price-display">Total: <span id="totalPrice"><?php echo $totalPrice . "/-" ?> </span></div>
-
-
-                            </li>
-
-                            </li>
-
+                                </li>
+                           </li>
                         </ul>
                     </div>
                 </div>
