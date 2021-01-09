@@ -1,7 +1,7 @@
 :root {
   --nero: #252525;
   --dimGray: rgb(104, 97, 97);
-  --max-red: #0a0944;
+  --max-red: #03213c;
   --snow: #fafafa;
   --Libre: "Libre Franklin", sans-serif;
   --Kaushan: "Kaushan Script";
@@ -21,10 +21,8 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-
-
 /* setup &  resuable stylings */
- h2::after {
+/* h2::after {
   position: absolute;
   content: "";
   background: #d43031;
@@ -33,7 +31,7 @@ body {
   bottom: 0;
   margin-left: -35px;
   left: 50%;
-} 
+} */
 a {
   color: #000;
   text-decoration: none;
@@ -44,6 +42,12 @@ img {
 }
 li {
   list-style-type: none;
+}
+.solid-line {
+  width: 100%;
+  height: 4px;
+  background-color: var(--max-red);
+  border-radius: 2px;
 }
 .button:link,
 .button:visited {
@@ -72,7 +76,8 @@ li {
 .purple {
   background-color: rgb(110, 0, 86);
 }
-.container, .container1 {
+.container,
+.container1 {
   width: 94%;
   margin: 0 auto;
 }
@@ -188,6 +193,10 @@ h6 {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 0.57);
   -moz-box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 0.57);
   box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 0.57);
+}
+.navbar-user {
+  background-color: var(--max-red);
+  color: snow;
 }
 .brand-and-toggler {
   font-size: 1.4rem;
@@ -438,7 +447,6 @@ fa-times {
 .tablediv {
   display: table;
   width: 94%;
- 
 }
 .cart-table {
   width: 70%;
@@ -447,21 +455,23 @@ fa-times {
   font-weight: 500;
   margin-left: 15%;
   margin-right: 15%;
-  
 }
-.cart-table th
-{
-  background-color: #0a0944; 
+.cart-table th {
+  background-color: #0a0944;
 }
 
 .cart-table thead tr th,
 .cart-table tbody tr td {
   vertical-align: middle;
   text-align: center;
+  padding: 10px;
 }
 .cart-table tbody tr td {
   width: 170px;
   margin: 0 auto;
+}
+.totals-table td {
+  text-align: left;
 }
 .form-group {
   margin-bottom: 15px;
@@ -522,7 +532,6 @@ label {
   padding-left: 25rem;
 }
 
-
 /* #### Media Queries #### */
 
 @media screen and (min-width: 480px) {
@@ -556,7 +565,7 @@ label {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-  } 
+  }
   .contact-col-2 {
     padding-top: 6rem;
   }
@@ -642,4 +651,3 @@ label {
     margin-right: auto;
   }
 }
-
