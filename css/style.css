@@ -33,9 +33,10 @@ body {
   left: 50%;
 } */
 a {
-  color: #000;
+  /*color: #000;*/
   text-decoration: none;
 }
+
 img {
   width: 100%;
   display: block;
@@ -196,12 +197,13 @@ h6 {
 
 }
 .navbar-expanded{
-  padding-left: 120px;
+  padding-left: 300px;
 }
 .navbar-user {
   background-color: var(--max-red);
-  color: rgb(255, 255, 255);
-}
+  color: white;
+} 
+
 .price-display {
   color: #d43031;
   font-weight: 400;
@@ -244,15 +246,34 @@ h6 {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 1rem;
-  color: var(--dimGray);
+  color:white;
+  /*color: var(--dimGray);*/
 }
 .navbar-nav li a:hover {
-  color: white;
-}
+  color: rgb(88, 58, 58);
+} 
+.navbar-nav1 li a:hover {
+  color: rgb(88, 58, 58);
+} 
 
 /*.navbar-collapse {
   display: none;
 }*/
+.navbar-nav1 {
+  padding: 0.5rem 0;
+}
+.navbar-nav1 li {
+  margin: 0.2rem 0;
+  padding: 0.5rem 0;
+}
+
+.navbar-nav1 li a {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color:black;
+  /*color: var(--dimGray);*/
+}
 .welcomeuser{
   font-family: var(--Kaushan);
   font-size: 20px;
@@ -614,6 +635,14 @@ label {
     justify-content: flex-end;
   }
   .navbar-nav li {
+    margin: 0 1.2rem;
+    padding: 0;
+  }
+  .navbar-nav1 {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .navbar-nav1 li {
     margin: 0 1.2rem;
     padding: 0;
   }
