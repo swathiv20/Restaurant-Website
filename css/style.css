@@ -7,7 +7,7 @@
   --Kaushan: "Kaushan Script";
   --transition: all 0.4s ease;
 }
-* {
+ * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -193,6 +193,10 @@ h6 {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 0.57);
   -moz-box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 0.57);
   box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 0.57);
+
+}
+.navbar-expanded{
+  padding-left: 120px;
 }
 .navbar-user {
   background-color: var(--max-red);
@@ -230,7 +234,7 @@ h6 {
   color: var(--nero);
 }
 .navbar-nav {
-  padding: 0.6rem 0;
+  padding: 0.5rem 0;
 }
 .navbar-nav li {
   margin: 0.2rem 0;
@@ -243,10 +247,15 @@ h6 {
   color: var(--dimGray);
 }
 .navbar-nav li a:hover {
-  color: var(--nero);
+  color: white;
 }
-.navbar-collapse {
+
+/*.navbar-collapse {
   display: none;
+}*/
+.welcomeuser{
+  font-family: var(--Kaushan);
+  font-size: 20px;
 }
 
 /* fixed navbar class */
