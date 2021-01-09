@@ -3,6 +3,15 @@ session_start();
 include('database.inc.php');
 include('function.inc.php');
 include('constant.inc.php');
+$totalPrice = 0;
+$cartArr = getUserFullCart();
+$totalCartDish = count($cartArr);
+foreach ($cartArr as $list) {
+    $totalPrice = $totalPrice + ($list['qty'] * $list['price']);
+}
+
+// prx($cartArr);
+
 ?>
 
 <!DOCTYPE html>
@@ -20,11 +29,12 @@ include('constant.inc.php');
     <link rel="stylesheet" href="assets/font-awesome/all.css">
     <!-- custom style css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar fxd-navbar" id="navbar">
             <div class="container">
                 <div class="brand-and-toggler">
                     <a href="index.html" class="navbar-brand">
@@ -53,9 +63,8 @@ include('constant.inc.php');
                         <?php
                         if (isset($_SESSION['FOOD_USER_NAME'])) {
                         ?>
-                            <li>
-                                <a href="cart.php">My cart</a>
-                            </li>
+
+                            <li><a href="logout.php">Logout</a></li>
                         <?php } ?>
                         <div>
                             <?php
@@ -79,7 +88,7 @@ include('constant.inc.php');
         <?php
         if (isset($_SESSION['FOOD_USER_NAME'])) {
         ?>
-            <nav class="navbar">
+            <nav class="navbar navbar-user">
                 <div class="container">
 
                     <div class="navbar-collapse">
@@ -89,7 +98,13 @@ include('constant.inc.php');
 
                             <li><i class="fa fa-user" aria-hidden="true"></i> <a href="<">Profile </a></li>
                             <li><a href="order_history.php">Order History</a></li>
-                            <li><a href="logout.php">Logout</a></li>
+                            <li>
+                                <a href="cart.php">My cart (<span id="mycart"><?php echo $totalCartDish ?></span>)</a> <br>
+
+                                <div class="price-display">Total: <span id="totalPrice"><?php echo $totalPrice . "/-" ?> </span></div>
+
+
+                            </li>
 
                             </li>
 
